@@ -15,5 +15,9 @@ app.use(express.json());
 
 app.get("/", (req, res) => res.json({ message: "API running" }));
 
+const clickRoute = require("./routes/click");
+app.use("/click", clickRoute);
+
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
