@@ -19,6 +19,13 @@ Example:
 - Backend: Node.js + Express, PostgreSQL (`pg`)
 - Frontend: Next.js (App Router)
 
+## How it looks
+
+<img width="1365" height="629" alt="Screenshot 2025-08-25 155613" src="https://github.com/user-attachments/assets/01cb190d-8aa3-4c44-ab03-30d86c45a905" />
+<img width="1364" height="632" alt="image" src="https://github.com/user-attachments/assets/45ed840d-0033-45a4-81e3-595a2d8268e4" />
+
+
+
 ## Repository Structure
 
 - `backend/` — Express API, Postgres schema and seed
