@@ -1,4 +1,3 @@
-// backend/db.js
 const { Pool } = require("pg");
 require("dotenv").config();
 
@@ -9,5 +8,4 @@ const pool = new Pool({
   user: process.env.SUPABASE_USER,
   password: process.env.SUPABASE_PASSWORD,
 });
-
 module.exports = pool;
